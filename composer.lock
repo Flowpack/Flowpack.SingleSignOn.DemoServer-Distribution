@@ -1,5 +1,5 @@
 {
-    "hash": "7865fc2dfb39189bb131f6d2ad86d204",
+    "hash": "131821cdc133108bdd257bd9f5ffdda0",
     "packages": [
         {
             "name": "acme/demoserver",
@@ -7,19 +7,21 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoServer.git",
-                "reference": "89f241c53d4125e6f0d6d4886f88e99754f0927d"
+                "reference": "e92db2323917c503895e281fc9713e73b799aedc"
             },
             "require": {
-                "typo3/flow": "*"
+                "typo3/flow": "*",
+                "typo3/singlesignon-server": "*"
             },
-            "time": "1350907082",
+            "time": "1350913424",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Acme\\DemoServer": "Classes"
                 }
-            }
+            },
+            "description": "SSO Demo Server"
         },
         {
             "name": "doctrine/common",
@@ -513,6 +515,49 @@
                 "LGPL-3.0+"
             ],
             "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard."
+        },
+        {
+            "name": "typo3/singlesignon-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git",
+                "reference": "dea72cf67785a5c7be9fd32bd6b746c7b5e50245"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1350912403",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\SingleSignOn\\Client": "Classes"
+                }
+            },
+            "description": "TYPO3 SingleSignOn Client"
+        },
+        {
+            "name": "typo3/singlesignon-server",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Server.git",
+                "reference": "1099f0ff3b26da516bfca1d95412ee3bc07aa296"
+            },
+            "require": {
+                "typo3/flow": "*",
+                "typo3/singlesignon-client": "*"
+            },
+            "time": "1350913580",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\SingleSignOn\\Server": "Classes"
+                }
+            },
+            "description": "TYPO3 SingleSignOn Server"
         }
     ],
     "packages-dev": [
