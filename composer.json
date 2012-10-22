@@ -5,6 +5,10 @@
         {
             "type": "git",
             "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/TYPO3.Flow.git"
+        },
+        {
+            "type": "git",
+            "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoServer.git"
         }
     ],
     "config": {
@@ -12,7 +16,8 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/flow": "dev-master"
+        "typo3/flow": "dev-master",
+		"acme/demoserver": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
