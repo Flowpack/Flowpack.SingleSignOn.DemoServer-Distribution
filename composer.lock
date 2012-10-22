@@ -7,13 +7,13 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoServer.git",
-                "reference": "e92db2323917c503895e281fc9713e73b799aedc"
+                "reference": "2da9ad0f22bcf6928a4175c32caad01df0d9f2ac"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-server": "*"
             },
-            "time": "1350913424",
+            "time": "1350920578",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -522,12 +522,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "dea72cf67785a5c7be9fd32bd6b746c7b5e50245"
+                "reference": "48c3924c6e31d3925c77bb49252729e465ba94d0"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1350912403",
+            "time": "1350915429",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -543,13 +543,13 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "3562a14967eda24e759c4e9405955d8668c4a8e7"
+                "reference": "2d62d26f08945ebb339a155c780355e97ad449b4"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-client": "*"
             },
-            "time": "1350914915",
+            "time": "1350920688",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
