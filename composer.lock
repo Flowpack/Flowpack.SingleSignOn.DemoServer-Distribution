@@ -318,18 +318,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml",
-                "reference": "1f7ba14c4b263dbf701e25705b0b2175a850a784"
+                "reference": "76256c6d9f7f113eb31077883657191510ff0532"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Yaml/zipball/1f7ba14c4b263dbf701e25705b0b2175a850a784",
-                "reference": "1f7ba14c4b263dbf701e25705b0b2175a850a784",
+                "url": "https://github.com/symfony/Yaml/zipball/76256c6d9f7f113eb31077883657191510ff0532",
+                "reference": "76256c6d9f7f113eb31077883657191510ff0532",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1349553479",
+            "time": "1351093287",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -523,12 +523,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "98dd351c420e9a6236fed2adb182b3b2a714a24e"
+                "reference": "55603987669e854a46617acfc549ec8b53597d60"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1351068601",
+            "time": "1351097728",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -544,13 +544,13 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "0d11aa8a3dfe0df55fe83d8f098464ffec923325"
+                "reference": "af40f2c8a6110f19f35e071d00fca44a9fcede1a"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-client": "*"
             },
-            "time": "1351068885",
+            "time": "1351097794",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
