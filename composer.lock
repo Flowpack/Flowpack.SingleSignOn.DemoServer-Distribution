@@ -7,13 +7,14 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoServer.git",
-                "reference": "2da9ad0f22bcf6928a4175c32caad01df0d9f2ac"
+                "reference": "ce9f3903d45b6c7b5462987b7cac11b63f2e9e1c"
             },
             "require": {
                 "typo3/flow": "*",
-                "typo3/singlesignon-server": "*"
+                "typo3/singlesignon-server": "*",
+                "typo3/twitter-bootstrap": "*"
             },
-            "time": "1350920578",
+            "time": "1351068694",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -522,12 +523,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "48c3924c6e31d3925c77bb49252729e465ba94d0"
+                "reference": "98dd351c420e9a6236fed2adb182b3b2a714a24e"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1350915429",
+            "time": "1351068601",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -543,13 +544,13 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "2d62d26f08945ebb339a155c780355e97ad449b4"
+                "reference": "0d11aa8a3dfe0df55fe83d8f098464ffec923325"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-client": "*"
             },
-            "time": "1350920688",
+            "time": "1351068885",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -634,6 +635,27 @@
                 "LGPL-3.0+"
             ],
             "description": "A simple generator for controller and views."
+        },
+        {
+            "name": "typo3/twitter-bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git",
+                "reference": "514322c57533f3eb0590e464f3f369df55b76937"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1350483987",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Twitter\\Bootstrap": "Classes"
+                }
+            },
+            "description": "Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. Packaged for use with TYPO3 Flow"
         }
     ],
     "aliases": [
