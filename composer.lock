@@ -1,5 +1,5 @@
 {
-    "hash": "131821cdc133108bdd257bd9f5ffdda0",
+    "hash": "96f35962c6de66f02f8cee265cb3c544",
     "packages": [
         {
             "name": "acme/demoserver",
@@ -360,11 +360,11 @@
         },
         {
             "name": "typo3/flow",
-            "version": "dev-master",
+            "version": "dev-fixes",
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/TYPO3.Flow.git",
-                "reference": "99f42a0ba5abc882decbe12c0b6804beb211e92c"
+                "reference": "97de850dc5d1f1e066b06c6acc3caa5f1271966d"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -380,7 +380,7 @@
                 "symfony/dom-crawler": ">2.0.16",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "1350856006",
+            "time": "1351076314",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
