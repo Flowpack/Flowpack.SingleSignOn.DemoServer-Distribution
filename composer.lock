@@ -1,5 +1,5 @@
 {
-    "hash": "1e783847b03eb769907f022077b189bc",
+    "hash": "b0b2794bc55166a3a8afd3ce3d6078b3",
     "packages": [
         {
             "name": "acme/demoserver",
@@ -363,7 +363,7 @@
             "version": "dev-fixes",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git",
+                "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/TYPO3.Flow.git",
                 "reference": "d8c8cac2b4940b715d524dc27e67450053fac6df"
             },
             "require": {
@@ -522,7 +522,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
+                "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git",
                 "reference": "c44099ba2d2180fbc1bdd3c9157a111304c35151"
             },
             "require": {
@@ -544,13 +544,16 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "af40f2c8a6110f19f35e071d00fca44a9fcede1a"
+                "reference": "9bf9b88040b6731d244939542eb137746c080e70"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-client": "*"
             },
-            "time": "1351097794",
+            "require-dev": {
+                "mockery/mockery": "0.7.*"
+            },
+            "time": "1351160395",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -612,6 +615,59 @@
                 "BSD"
             ],
             "homepage": "http://vfs.bovigo.org/"
+        },
+        {
+            "name": "mockery/mockery",
+            "version": "0.7.2",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/padraic/mockery.git",
+                "reference": "0.7.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/padraic/mockery/zipball/0.7.2",
+                "reference": "0.7.2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "suggest": {
+                "Hamcrest": "1.0.0"
+            },
+            "time": "2012-01-24 12:22:39",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Mockery": "library/"
+                }
+            },
+            "license": [
+                "New BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Pádraic Brady",
+                    "email": "padraic.brady@gmail.com",
+                    "homepage": "http://blog.astrumfutura.com"
+                }
+            ],
+            "description": "Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succint API capable of clearly defining all possible object operations and interactions using a human readable Domain Specific Language (DSL). Designed as a drop in alternative to PHPUnit's phpunit-mock-objects library, Mockery is easy to integrate with PHPUnit and can operate alongside phpunit-mock-objects without the World ending.",
+            "homepage": "http://github.com/padraic/mockery",
+            "keywords": [
+                "testing",
+                "library",
+                "BDD",
+                "TDD",
+                "test",
+                "mockery",
+                "mock",
+                "stub",
+                "test double",
+                "mock objects"
+            ]
         },
         {
             "name": "typo3/buildessentials",
