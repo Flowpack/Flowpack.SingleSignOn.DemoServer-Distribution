@@ -363,7 +363,7 @@
             "version": "dev-fixes",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/TYPO3.Flow.git",
+                "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git",
                 "reference": "d8c8cac2b4940b715d524dc27e67450053fac6df"
             },
             "require": {
@@ -522,7 +522,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git",
+                "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
                 "reference": "c44099ba2d2180fbc1bdd3c9157a111304c35151"
             },
             "require": {
