@@ -7,14 +7,14 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoServer.git",
-                "reference": "9c8cb0245c6eaf2a7a25fda8763670eb7ce55064"
+                "reference": "bf8c41460a4b65e9ed997499b87bae4bb997fa6b"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-server": "dev-master",
                 "typo3/twitter-bootstrap": "dev-master"
             },
-            "time": "1351156031",
+            "time": "1351166499",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
