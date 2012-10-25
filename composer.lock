@@ -1,20 +1,20 @@
 {
-    "hash": "96f35962c6de66f02f8cee265cb3c544",
+    "hash": "1e783847b03eb769907f022077b189bc",
     "packages": [
         {
             "name": "acme/demoserver",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoServer.git",
-                "reference": "ce9f3903d45b6c7b5462987b7cac11b63f2e9e1c"
+                "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoServer.git",
+                "reference": "9c8cb0245c6eaf2a7a25fda8763670eb7ce55064"
             },
             "require": {
                 "typo3/flow": "*",
-                "typo3/singlesignon-server": "*",
-                "typo3/twitter-bootstrap": "*"
+                "typo3/singlesignon-server": "dev-master",
+                "typo3/twitter-bootstrap": "dev-master"
             },
-            "time": "1351068694",
+            "time": "1351156031",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -363,7 +363,7 @@
             "version": "dev-fixes",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/TYPO3.Flow.git",
+                "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git",
                 "reference": "d8c8cac2b4940b715d524dc27e67450053fac6df"
             },
             "require": {
@@ -522,7 +522,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git",
+                "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
                 "reference": "c44099ba2d2180fbc1bdd3c9157a111304c35151"
             },
             "require": {
@@ -543,7 +543,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Server.git",
+                "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
                 "reference": "af40f2c8a6110f19f35e071d00fca44a9fcede1a"
             },
             "require": {
