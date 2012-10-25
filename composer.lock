@@ -559,6 +559,27 @@
                 }
             },
             "description": "TYPO3 SingleSignOn Server"
+        },
+        {
+            "name": "typo3/twitter-bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git",
+                "reference": "514322c57533f3eb0590e464f3f369df55b76937"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1350483987",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Twitter\\Bootstrap": "Classes"
+                }
+            },
+            "description": "Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. Packaged for use with TYPO3 Flow"
         }
     ],
     "packages-dev": [
@@ -635,27 +656,6 @@
                 "LGPL-3.0+"
             ],
             "description": "A simple generator for controller and views."
-        },
-        {
-            "name": "typo3/twitter-bootstrap",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git",
-                "reference": "514322c57533f3eb0590e464f3f369df55b76937"
-            },
-            "require": {
-                "typo3/flow": "*"
-            },
-            "time": "1350483987",
-            "type": "typo3-flow-package",
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Twitter\\Bootstrap": "Classes"
-                }
-            },
-            "description": "Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. Packaged for use with TYPO3 Flow"
         }
     ],
     "aliases": [
