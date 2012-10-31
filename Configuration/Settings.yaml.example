@@ -23,7 +23,13 @@ TYPO3:
   #  core:
   #    phpBinaryPathAndFilename: 'C:/path/to/php.exe'
 
+TYPO3:
+  SingleSignOn:
+    Server:
+      server:
+        # Key pair uuid for the server, will be set by setup command
+        keyPairUuid: ''
 Acme:
   DemoServer:
-  	# The URI of a DemoInstance installation for convenient links
+    # Note: You should configure the demo instance URI for proper links in the demo server frontend
     demoInstanceUri: 'http://ssoinstance/'
