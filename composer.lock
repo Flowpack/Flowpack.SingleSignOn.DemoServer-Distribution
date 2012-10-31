@@ -265,12 +265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler",
-                "reference": "9e655ad78168f441b1a8ca065c6f68912ea59bb2"
+                "reference": "d78183b7cb0eba2807cb0d6ba75e50c031ee1610"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/DomCrawler/zipball/9e655ad78168f441b1a8ca065c6f68912ea59bb2",
-                "reference": "9e655ad78168f441b1a8ca065c6f68912ea59bb2",
+                "url": "https://github.com/symfony/DomCrawler/zipball/d78183b7cb0eba2807cb0d6ba75e50c031ee1610",
+                "reference": "d78183b7cb0eba2807cb0d6ba75e50c031ee1610",
                 "shasum": ""
             },
             "require": {
@@ -282,7 +282,7 @@
             "suggest": {
                 "symfony/css-selector": "2.2.*"
             },
-            "time": "1350594979",
+            "time": "1351466734",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -523,12 +523,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "c44099ba2d2180fbc1bdd3c9157a111304c35151"
+                "reference": "016d82b8c79825bd9fc75d86e188ec0cfd95648d"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1351097975",
+            "time": "1351683570",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -544,7 +544,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "0c1f75a54e25821ef20bf88eb92fe7bdcccb5d65"
+                "reference": "6e3ec507804a92fe0255c700f64545269f826536"
             },
             "require": {
                 "typo3/flow": "*",
@@ -553,7 +553,7 @@
             "require-dev": {
                 "mockery/mockery": "0.7.*"
             },
-            "time": "1351171252",
+            "time": "1351683639",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
