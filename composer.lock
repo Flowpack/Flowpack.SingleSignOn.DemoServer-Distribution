@@ -634,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "f4b205a680ea78f40cd62ef5929e7b7bf519fb69"
+                "reference": "eb7e2e4a7cae60d7068666c680ce7f69f57f2a20"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1351698526",
+            "time": "1352999121",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -655,7 +655,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "7f6d6881fe1205125f11f983d253194577825cb7"
+                "reference": "5c0caa0175f79fdbb2638976d59ce4a25ae4c821"
             },
             "require": {
                 "typo3/flow": "*",
@@ -664,7 +664,7 @@
             "require-dev": {
                 "mockery/mockery": "0.7.*"
             },
-            "time": "1352998894",
+            "time": "1352999438",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
