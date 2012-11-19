@@ -634,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "8a65b2d1ef986d673127aa24eefba4ffb29a2aea"
+                "reference": "18eb694b21169a03614eb1321a2fecdd8be0d128"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1353320351",
+            "time": "1353357971",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
