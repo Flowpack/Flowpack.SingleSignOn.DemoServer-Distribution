@@ -328,18 +328,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console",
-                "reference": "6da537054e8f9f795e64a5b02eb7f9646c9b59e7"
+                "reference": "003a487a674175a1d2e62f205ecd91ffe85554b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Console/archive/6da537054e8f9f795e64a5b02eb7f9646c9b59e7.zip",
-                "reference": "6da537054e8f9f795e64a5b02eb7f9646c9b59e7",
+                "url": "https://github.com/symfony/Console/archive/003a487a674175a1d2e62f205ecd91ffe85554b1.zip",
+                "reference": "003a487a674175a1d2e62f205ecd91ffe85554b1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1352815684",
+            "time": "1353329932",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -375,12 +375,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler",
-                "reference": "e3aad2db097c953400a830fdd2f6edb2a42329c1"
+                "reference": "9d95ebb0e1c1a037732a8899af5cc376db82561d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/DomCrawler/archive/e3aad2db097c953400a830fdd2f6edb2a42329c1.zip",
-                "reference": "e3aad2db097c953400a830fdd2f6edb2a42329c1",
+                "url": "https://github.com/symfony/DomCrawler/archive/9d95ebb0e1c1a037732a8899af5cc376db82561d.zip",
+                "reference": "9d95ebb0e1c1a037732a8899af5cc376db82561d",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
             "suggest": {
                 "symfony/css-selector": "2.2.*"
             },
-            "time": "1352815684",
+            "time": "1353329932",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -655,7 +655,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "3d75564db7d1eef5652e48eb978b1fcbfce850b9"
+                "reference": "a2ef7c32781abcdd0d6af33b34685a9fc1d505ff"
             },
             "require": {
                 "typo3/flow": "*",
@@ -664,7 +664,7 @@
             "require-dev": {
                 "mockery/mockery": "0.7.*"
             },
-            "time": "1353320788",
+            "time": "1353333579",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
