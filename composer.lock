@@ -99,18 +99,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "a95d7839a7794c7c9b22d64e859ee70658d977fe"
+                "reference": "98e059213cd8bf70f1203a3c9acc3c7e8afc2c89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/data-fixtures/archive/a95d7839a7794c7c9b22d64e859ee70658d977fe.zip",
-                "reference": "a95d7839a7794c7c9b22d64e859ee70658d977fe",
+                "url": "https://github.com/doctrine/data-fixtures/archive/98e059213cd8bf70f1203a3c9acc3c7e8afc2c89.zip",
+                "reference": "98e059213cd8bf70f1203a3c9acc3c7e8afc2c89",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "1351735543",
+            "time": "1353423624",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -474,7 +474,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git",
-                "reference": "4ab057fb7fa69fd20194d64ba34ad09e1294097f"
+                "reference": "d8d8542eb5a783b38ea7553b171f06b21ef744ce"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -491,7 +491,7 @@
                 "symfony/dom-crawler": ">2.0.16",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "1352996039",
+            "time": "1353430988",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {

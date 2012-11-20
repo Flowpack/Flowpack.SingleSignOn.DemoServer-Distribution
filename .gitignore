@@ -1,5 +1,7 @@
 /Build/
-/Configuration/
+/Configuration/Settings.yaml
+/Configuration/Testing/Settings.yaml
+/Configuration/PackageStates.php
 /Data/
 /Packages/
 /Web/
@@ -7,3 +9,4 @@
 /Upgrading.txt
 /flow
 /flow.bat
+/bin
