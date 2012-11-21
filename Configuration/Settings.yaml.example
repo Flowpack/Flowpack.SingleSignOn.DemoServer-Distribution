@@ -23,7 +23,6 @@ TYPO3:
   #  core:
   #    phpBinaryPathAndFilename: 'C:/path/to/php.exe'
 
-TYPO3:
   SingleSignOn:
     Server:
       server:

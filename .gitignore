@@ -2,6 +2,7 @@
 /Configuration/Settings.yaml
 /Configuration/Testing/Settings.yaml
 /Configuration/PackageStates.php
+/Configuration/Caches.yaml
 /Data/
 /Packages/
 /Web/
