@@ -7,14 +7,14 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoServer.git",
-                "reference": "d6eb38aa4c5290bd87413133d5411321db160573"
+                "reference": "faeb18a347833f125a10e5d11a011fe7ed067877"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-server": "dev-master",
                 "typo3/twitter-bootstrap": "dev-master"
             },
-            "time": "2012-10-31 17:56:29",
+            "time": "2012-11-27 17:27:35",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -634,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "18eb694b21169a03614eb1321a2fecdd8be0d128"
+                "reference": "23998b6a2a0c06d603abcc62d77dda33140dbc68"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "2012-11-19 20:46:11",
+            "time": "2012-11-27 17:23:09",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -655,7 +655,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "395dde221a65c85f703a1a8f294f6ad9734aced0"
+                "reference": "64420b5d996eaae659801001e5b8674edc86f902"
             },
             "require": {
                 "typo3/flow": "*",
@@ -664,7 +664,7 @@
             "require-dev": {
                 "mockery/mockery": "0.7.*"
             },
-            "time": "2012-11-27 08:42:12",
+            "time": "2012-11-27 17:26:49",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
