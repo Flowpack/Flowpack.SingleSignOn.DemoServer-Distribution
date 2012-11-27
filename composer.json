@@ -31,7 +31,7 @@
         "typo3/kickstart": "dev-master",
         "typo3/buildessentials": "dev-master",
         "mikey179/vfsstream": "1.1.*",
-		"mockery/mockery": "0.7.*"
+		"mockery/mockery": "dev-master"
     },
     "minimum-stability": "dev",
     "scripts": {
