@@ -7,14 +7,14 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoServer.git",
-                "reference": "5144b516bc3a03b48ffa8799318b2c5f849bc434"
+                "reference": "bafa7091edbc9164c12f6501b4dd772cbcc96a5a"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-server": "dev-master",
                 "typo3/twitter-bootstrap": "dev-master"
             },
-            "time": "2012-11-28 15:58:27",
+            "time": "2012-11-28 20:56:07",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -474,7 +474,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git",
-                "reference": "b1caa487a1ffceff7ec0df4d1bdcbedf9accbbe3"
+                "reference": "208a11f340f79d0c180af56dd81196eade1ab359"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -491,7 +491,7 @@
                 "symfony/dom-crawler": ">2.0.16",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "2012-11-28 16:52:28",
+            "time": "2012-11-28 18:22:56",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -634,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "feef9068a960a5d649c3313ad1f611f607392fbc"
+                "reference": "cb86f06d97a9043c8541c2977d231c3e12745ec2"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "2012-11-28 16:16:04",
+            "time": "2012-11-28 20:42:20",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -655,7 +655,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "cf4ebb7076b12cfa624a0f70d9c979f4df80865a"
+                "reference": "5024c1109dc19454a1894ebbbeb7ad323dcefaa7"
             },
             "require": {
                 "typo3/flow": "*",
@@ -664,7 +664,7 @@
             "require-dev": {
                 "mockery/mockery": "0.7.*"
             },
-            "time": "2012-11-28 15:59:59",
+            "time": "2012-11-28 20:55:14",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -680,12 +680,12 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git",
-                "reference": "c1343bce953a2d81419b60cac3b83fec6fa22318"
+                "reference": "dacbb5e42b6db5dcee090f576748c940756cebda"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "2012-11-08 19:50:49",
+            "time": "2012-11-24 21:40:53",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
