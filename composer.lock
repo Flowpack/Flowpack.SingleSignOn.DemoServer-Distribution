@@ -375,12 +375,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler",
-                "reference": "9d95ebb0e1c1a037732a8899af5cc376db82561d"
+                "reference": "b186c987f56375ebb1be9a7dd6686352db1ce096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/DomCrawler/archive/9d95ebb0e1c1a037732a8899af5cc376db82561d.zip",
-                "reference": "9d95ebb0e1c1a037732a8899af5cc376db82561d",
+                "url": "https://github.com/symfony/DomCrawler/archive/b186c987f56375ebb1be9a7dd6686352db1ce096.zip",
+                "reference": "b186c987f56375ebb1be9a7dd6686352db1ce096",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
             "suggest": {
                 "symfony/css-selector": "2.2.*"
             },
-            "time": "2012-11-19 12:58:52",
+            "time": "2012-11-29 10:32:45",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -634,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "cb86f06d97a9043c8541c2977d231c3e12745ec2"
+                "reference": "aec184d9f1efc0e6db9649e85396e89f5984532c"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "2012-11-28 20:42:20",
+            "time": "2012-11-30 17:33:58",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -655,7 +655,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "5024c1109dc19454a1894ebbbeb7ad323dcefaa7"
+                "reference": "638b853adeaa4039823c445f064a8084d7ab01df"
             },
             "require": {
                 "typo3/flow": "*",
@@ -664,7 +664,7 @@
             "require-dev": {
                 "mockery/mockery": "0.7.*"
             },
-            "time": "2012-11-28 20:55:14",
+            "time": "2012-11-30 17:46:21",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -806,12 +806,12 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Kickstart.git",
-                "reference": "3060ff79b14ea8ff7ca3fefb54dad911b625bc2f"
+                "reference": "97c03c55dbf1a213b95b43cdae064752c91eb420"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "2012-11-26 15:04:40",
+            "time": "2012-11-29 08:38:35",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
