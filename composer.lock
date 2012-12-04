@@ -7,14 +7,14 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoServer.git",
-                "reference": "bafa7091edbc9164c12f6501b4dd772cbcc96a5a"
+                "reference": "57902e2a18f797d8c9c966790cc120a45f261801"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-server": "dev-master",
                 "typo3/twitter-bootstrap": "dev-master"
             },
-            "time": "2012-11-28 20:56:07",
+            "time": "2012-12-04 11:09:18",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -99,18 +99,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "a28b6bde290b0a908d32938e3393244086c2d89d"
+                "reference": "84cd1ca060e06bf5eb7066adb334adea4bf29fe7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/data-fixtures/archive/a28b6bde290b0a908d32938e3393244086c2d89d.zip",
-                "reference": "a28b6bde290b0a908d32938e3393244086c2d89d",
+                "url": "https://github.com/doctrine/data-fixtures/archive/84cd1ca060e06bf5eb7066adb334adea4bf29fe7.zip",
+                "reference": "84cd1ca060e06bf5eb7066adb334adea4bf29fe7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.3.2",
+                "doctrine/common": ">=2.2,<2.5-dev"
             },
-            "time": "2012-11-22 04:04:25",
+            "require-dev": {
+                "doctrine/orm": ">=2.2,<2.5-dev"
+            },
+            "suggest": {
+                "doctrine/orm": "For loading ORM fixtures",
+                "doctrine/mongodb-odm": "For loading MongoDB ODM fixtures",
+                "doctrine/phpcr-odm": "For loading PHPCR ODM fixtures"
+            },
+            "time": "2012-12-03 09:46:47",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -328,18 +337,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console",
-                "reference": "003a487a674175a1d2e62f205ecd91ffe85554b1"
+                "reference": "236c4d50d364c21bafa46e35aaf4fd38eec63e66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Console/archive/003a487a674175a1d2e62f205ecd91ffe85554b1.zip",
-                "reference": "003a487a674175a1d2e62f205ecd91ffe85554b1",
+                "url": "https://github.com/symfony/Console/archive/236c4d50d364c21bafa46e35aaf4fd38eec63e66.zip",
+                "reference": "236c4d50d364c21bafa46e35aaf4fd38eec63e66",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-11-19 12:58:52",
+            "time": "2012-12-03 22:00:56",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -474,7 +483,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git",
-                "reference": "208a11f340f79d0c180af56dd81196eade1ab359"
+                "reference": "0363491243326f4e00e7c99cb3fdb05a702f86ac"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -491,7 +500,7 @@
                 "symfony/dom-crawler": ">2.0.16",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "2012-11-28 18:22:56",
+            "time": "2012-12-04 11:07:17",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -634,12 +643,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "aec184d9f1efc0e6db9649e85396e89f5984532c"
+                "reference": "eb6fafc1a852b0deb08473391ca35c13a7ae0f75"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "2012-11-30 17:33:58",
+            "time": "2012-12-04 10:09:17",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -655,7 +664,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Server.git",
-                "reference": "638b853adeaa4039823c445f064a8084d7ab01df"
+                "reference": "d6ad94f2258be023c5f081952f5b26a5fe6bc6f5"
             },
             "require": {
                 "typo3/flow": "*",
@@ -664,7 +673,7 @@
             "require-dev": {
                 "mockery/mockery": "0.7.*"
             },
-            "time": "2012-11-30 17:46:21",
+            "time": "2012-12-04 14:29:47",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
