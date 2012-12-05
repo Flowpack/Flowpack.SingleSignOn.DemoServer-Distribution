@@ -22,3 +22,25 @@ TYPO3:
   # the location of the PHP binary manually.
   #  core:
   #    phpBinaryPathAndFilename: 'C:/path/to/php.exe'
+
+  SingleSignOn:
+    Server:
+      server:
+        # Key pair uuid for the server, will be set by setup command
+        keyPairUuid: ''
+Acme:
+  DemoServer:
+    # Note: You should configure the demo instance URI for proper links in the demo server frontend
+    demoInstanceUri: 'http://ssoinstance/'
+    # A list of SSO clients to register in the demo server
+    clients:
+      -
+        # Note: You have to configure the correct URI for the demo instance
+        baseUri: 'http://ssoinstance/'
+        serviceBasePath: /sso
+      # The demo server can configure a list of demo instances as clients
+      #  -
+      #   baseUri: 'http://ssoinstance2/'
+      #   serviceBasePath: /backend/sso/client
+      #   # The clients will use a fixture public key by default
+      #   publicKeyFilename: 'resource://Acme.DemoServer/Private/Fixtures/DemoClient.pub'
