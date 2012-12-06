@@ -36,11 +36,9 @@ Acme:
     clients:
       -
         # Note: You have to configure the correct URI for the demo instance
-        baseUri: 'http://ssoinstance/'
-        serviceBasePath: /sso
+        serviceBaseUri: 'http://ssoinstance/sso'
       # The demo server can configure a list of demo instances as clients
       #  -
-      #   baseUri: 'http://ssoinstance2/'
-      #   serviceBasePath: /backend/sso/client
+      #   serviceBaseUri: 'http://ssoinstance2/backend/ssoclient'
       #   # The clients will use a fixture public key by default
       #   publicKeyFilename: 'resource://Acme.DemoServer/Private/Fixtures/DemoClient.pub'
