@@ -2,10 +2,6 @@
     "name": "typo3/singlesignon-demoserver-distribution",
     "description" : "Demo distribution for the SSO Server",
     "repositories": [
-		{
-            "type": "composer",
-            "url": "http://ci.typo3.robertlemke.net/job/composer-packages/ws/repository/"
-        },
         {
             "type": "git",
             "url": "https://github.com/chlu/TYPO3.SingleSignOn.DemoServer.git"
