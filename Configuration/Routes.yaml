@@ -14,7 +14,7 @@
       package: Acme.DemoServer
 
 ##
-# TYPO3.SingleSignOn.Server subroutes
+# Flowpack.SingleSignOn.Server subroutes
 #
 
 -
@@ -22,7 +22,7 @@
   uriPattern: 'sso/<SingleSignOnSubroutes>'
   subRoutes:
     SingleSignOnSubroutes:
-      package: TYPO3.SingleSignOn.Server
+      package: Flowpack.SingleSignOn.Server
 
 ##
 # Flow subroutes
