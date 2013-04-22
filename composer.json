@@ -1,37 +1,22 @@
 {
-    "name": "typo3/singlesignon-demoserver-distribution",
-    "description" : "Demo distribution for the SSO Server",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/chlu/TYPO3.SingleSignOn.DemoServer.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/chlu/TYPO3.SingleSignOn.Server.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/chlu/TYPO3.SingleSignOn.Client.git"
-        }
-    ],
-    "config": {
-        "vendor-dir": "Packages/Libraries",
-        "bin-dir": "bin"
-    },
-    "require": {
-        "typo3/flow": "dev-master",
-		"acme/demoserver": "dev-master"
-    },
-    "require-dev": {
-        "typo3/kickstart": "dev-master",
-        "typo3/buildessentials": "dev-master",
-        "mikey179/vfsstream": "1.1.*",
+	"name": "flowpack/singlesignon-demoserver-distribution",
+	"description": "Demo distribution for the SSO Server",
+	"config": {
+		"vendor-dir": "Packages/Libraries",
+		"bin-dir": "bin"
+	},
+	"require": {
+		"typo3/flow": "~2.0",
+		"flowpack/singlesignon-demoserver": "*"
+	},
+	"require-dev": {
+		"typo3/buildessentials": "~2.0",
+		"mikey179/vfsstream": "1.1.*",
 		"mockery/mockery": "dev-master"
-    },
-    "minimum-stability": "dev",
-    "scripts": {
-        "post-update-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
-        "post-install-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall"
-    }
+	},
+	"minimum-stability": "dev",
+	"scripts": {
+		"post-update-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+		"post-install-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall"
+	}
 }

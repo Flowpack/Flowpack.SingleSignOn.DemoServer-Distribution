@@ -3,7 +3,7 @@
 #                                                                        #
 
 ##
-# Acme.DemoServer subroutes
+# Flowpack.SingleSignOn.DemoServer subroutes
 #
 
 -
@@ -11,7 +11,7 @@
   uriPattern: '<DemoServerSubroutes>'
   subRoutes:
     DemoServerSubroutes:
-      package: Acme.DemoServer
+      package: Flowpack.SingleSignOn.DemoServer
 
 ##
 # Flowpack.SingleSignOn.Server subroutes
