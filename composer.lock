@@ -719,12 +719,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flowpack/Flowpack.SingleSignOn.DemoServer.git",
-                "reference": "eeec5c519a373c1e7f27e6ace914e52d796c81aa"
+                "reference": "f25fe2ce5f534282328d37fa287feacd78533150"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.DemoServer/zipball/eeec5c519a373c1e7f27e6ace914e52d796c81aa",
-                "reference": "eeec5c519a373c1e7f27e6ace914e52d796c81aa",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.DemoServer/zipball/f25fe2ce5f534282328d37fa287feacd78533150",
+                "reference": "f25fe2ce5f534282328d37fa287feacd78533150",
                 "shasum": ""
             },
             "require": {
@@ -757,7 +757,7 @@
                 }
             ],
             "description": "SSO Demo Server",
-            "time": "2013-06-13 16:21:56"
+            "time": "2013-06-14 10:30:44"
         },
         {
             "name": "flowpack/singlesignon-server",
