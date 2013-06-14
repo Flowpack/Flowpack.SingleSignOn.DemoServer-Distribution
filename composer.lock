@@ -765,12 +765,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flowpack/Flowpack.SingleSignOn.Server.git",
-                "reference": "9cc6ce1c0871168ce8d3a7207b21769e61c1acb6"
+                "reference": "60ba53c24b6d1a01aad341c1d64c8562ef9fe8c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Server/zipball/9cc6ce1c0871168ce8d3a7207b21769e61c1acb6",
-                "reference": "9cc6ce1c0871168ce8d3a7207b21769e61c1acb6",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Server/zipball/60ba53c24b6d1a01aad341c1d64c8562ef9fe8c9",
+                "reference": "60ba53c24b6d1a01aad341c1d64c8562ef9fe8c9",
                 "shasum": ""
             },
             "require": {
@@ -805,7 +805,7 @@
                 }
             ],
             "description": "TYPO3 SingleSignOn Server",
-            "time": "2013-04-22 11:39:55"
+            "time": "2013-06-14 09:52:28"
         },
         {
             "name": "symfony/console",
