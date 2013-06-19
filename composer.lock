@@ -675,12 +675,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flowpack/Flowpack.SingleSignOn.Client.git",
-                "reference": "b5a1f51e27283b7a02e9206394df52ab2bb1e155"
+                "reference": "8fa7aa0d9dc56c5495f98ec06a90c5547e484af4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Client/zipball/b5a1f51e27283b7a02e9206394df52ab2bb1e155",
-                "reference": "b5a1f51e27283b7a02e9206394df52ab2bb1e155",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Client/zipball/8fa7aa0d9dc56c5495f98ec06a90c5547e484af4",
+                "reference": "8fa7aa0d9dc56c5495f98ec06a90c5547e484af4",
                 "shasum": ""
             },
             "require": {
@@ -711,7 +711,7 @@
                 }
             ],
             "description": "Flowpack SingleSignOn Client",
-            "time": "2013-04-22 12:48:17"
+            "time": "2013-06-19 13:31:18"
         },
         {
             "name": "flowpack/singlesignon-demoserver",
@@ -765,12 +765,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flowpack/Flowpack.SingleSignOn.Server.git",
-                "reference": "f23f8567f71e9438c74aba76159b00a7d487560b"
+                "reference": "8de581577c72f055c1402dc4488f5aefe3e681c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Server/zipball/f23f8567f71e9438c74aba76159b00a7d487560b",
-                "reference": "f23f8567f71e9438c74aba76159b00a7d487560b",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Server/zipball/8de581577c72f055c1402dc4488f5aefe3e681c5",
+                "reference": "8de581577c72f055c1402dc4488f5aefe3e681c5",
                 "shasum": ""
             },
             "require": {
@@ -805,7 +805,7 @@
                 }
             ],
             "description": "TYPO3 SingleSignOn Server",
-            "time": "2013-06-14 12:08:05"
+            "time": "2013-06-19 13:33:20"
         },
         {
             "name": "symfony/console",
